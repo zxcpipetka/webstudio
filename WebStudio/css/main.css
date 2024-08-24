@@ -1,0 +1,141 @@
+.main_first--section {
+  background-color: #2f303a;
+}
+
+.main_first--container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_first--title {
+  max-width: 696px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 200px;
+}
+
+.main_first--btn {
+  margin-top: 30px;
+  width: 216px;
+  height: 50px;
+  margin-bottom: 200px;
+  border: 0;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.main_second--section {
+  margin-top: 94px;
+}
+
+.main_second--container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_second--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.main_second--text {
+  font-family: Roboto;
+  max-width: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main_third--section {
+  margin-top: 94px;
+  margin-bottom: 188px;
+}
+
+.main_third--container {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.main_third--title {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.main_third--images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_fourth--card--text {
+  font-family: Roboto;
+  max-width: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main_forth--card--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+
+}
+
+.main_fourth--title {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.main_fourth--cards {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 215px;
+  padding-right: 215px;
+}
