@@ -76,7 +76,7 @@
 
 .main_third--section {
   margin-top: 94px;
-  margin-bottom: 188px;
+  margin-bottom: 94px;
 }
 
 .main_third--container {
@@ -102,6 +102,18 @@
   justify-content: space-between;
 }
 
+.main_fourth--section {
+  padding-top: 94px;
+  padding-bottom: 124px;
+  background-color: #F5F4FA;
+}
+
+.main_fourth--container {
+ width: 100%;
+ max-width: 1170px;
+ margin: 0 auto;
+}
+
 .main_fourth--card--text {
   font-family: Roboto;
   max-width: 270px;
@@ -114,6 +126,7 @@
 
 .main_forth--card--title {
   font-family: Roboto;
+  margin-top: 30px;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.41px;
@@ -135,7 +148,18 @@
 
 .main_fourth--cards {
   display: flex;
-  justify-content: space-around;
-  padding-left: 215px;
-  padding-right: 215px;
+  justify-content: space-between;
+}
+.main_fourth--card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+.footer {
+  background-color: #2F303A;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 252px;
 }
