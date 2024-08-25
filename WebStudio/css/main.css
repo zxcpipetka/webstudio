@@ -156,10 +156,3 @@
   flex-direction: column;
   background-color: white;
 }
-.footer {
-  background-color: #2F303A;
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-  height: 252px;
-}
