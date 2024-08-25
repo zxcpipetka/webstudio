@@ -6,7 +6,10 @@
     height: 252px;
 }
 
-
+.footer_container {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer_text--first {
     font-family: Roboto;
