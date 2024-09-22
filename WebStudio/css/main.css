@@ -49,6 +49,16 @@
   margin-top: 94px;
 }
 
+.main_second--img{
+  background-color:#F5F4FA;
+  max-width: 270px;
+  height: 120px;
+}
+.qweee {
+margin-left: 100px;
+margin-top: 25px;
+}
+
 .main_second--container {
   width: 100%;
   max-width: 1170px;
@@ -159,4 +169,5 @@
   align-items: center;
   flex-direction: column;
   background-color: white;
+  box-shadow: 0px 2px 1px 0px #00000033;
 }
