@@ -1,5 +1,7 @@
 .main_first--section {
-  background-color: #2f303a;
+  background-image: url('/WebStudio/img/Шапка.png');/*фотка с вебстудии скачялась сразу с текстоми кнопкой и у меня не получилось его идеально подставить поетому первый ряд текста двойной((((*/
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .main_first--container {
@@ -9,6 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-right: 13.5px;
 }
 
 .main_first--title {
@@ -109,9 +112,9 @@
 }
 
 .main_fourth--container {
- width: 100%;
- max-width: 1170px;
- margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .main_fourth--card--text {
@@ -150,6 +153,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .main_fourth--card {
   display: flex;
   align-items: center;
