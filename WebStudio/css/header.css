@@ -47,12 +47,30 @@ header {
   color: #212121;
 }
 
-.header_svg {
-  fill: #2196f3;
+.header_right {
+  display: flex;
+  gap: 30px;
 }
 
-.header_navigation--item a:hover,
-.header_right--link:hover {
+.header_right--part:hover svg path,
+.header_right--part:hover a {
+  fill: #2196f3;
+  color: #2196f3;
+  transition: 0.5s;
+}
+
+.header_right--part svg path,
+.header_right--part a {
+  transition: 0.5s;
+}
+
+.header_right--part{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_navigation--item a:hover{
   transition: 0.5s;
   color: #2196f3;
 }
