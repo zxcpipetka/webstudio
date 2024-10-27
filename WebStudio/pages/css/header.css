@@ -43,6 +43,10 @@ header {
   color: #212121;
 }
 
+.header_svg:hover {
+   fill: #2196f3;
+}
+
 .header_navigation--item a:hover,
 .header_right--link:hover {
   transition: 0.5s;
