@@ -1,5 +1,5 @@
 .main_first--section {
-  background-image: url('/WebStudio/img/Шапка.png');/*фотка с вебстудии скачялась сразу с текстоми кнопкой и у меня не получилось его идеально подставить поетому первый ряд текста двойной((((*/
+  background-image: url('/WebStudio/img/Шапка.png');
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -165,6 +165,7 @@ margin-top: 25px;
 }
 
 .main_fourth--card {
+  height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
