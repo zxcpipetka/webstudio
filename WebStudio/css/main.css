@@ -115,6 +115,46 @@ margin-top: 25px;
   justify-content: space-between;
 }
 
+.imgq{
+  background-image: url("/WebStudio/img/card1.png");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+.imgw{
+  background-image: url("/WebStudio/img/card2.png");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+}
+.imge{
+  background-image: url("/WebStudio/img/card3.png");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+
+}
+.imgqq{
+  margin-top: 219px;
+  background-color: #212121;
+  opacity: 0.7;
+  width: 350px;
+  height: 75px;
+}
+.rete-in-img{
+  position: relative;
+  bottom: 50px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;  
+}
+
 .main_fourth--section {
   padding-top: 94px;
   padding-bottom: 124px;
@@ -179,3 +219,33 @@ margin-top: 25px;
 .card_svg svg:hover g path{
   fill: #ffffff;
 }
+.svg_section--h2{
+  font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.nev_sektion--svg{
+  height: 375px;
+}
+.svg_section {
+display: flex;
+justify-content: space-around; 
+}
+.svg_section--div{
+  border: 1px solid #AFB1B8;
+  border-radius: 5px;
+  margin-top: 140px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.svg_section--div svg:hover path{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+  .svg_section--div svg path{
+    fill:#AFB1B8;}

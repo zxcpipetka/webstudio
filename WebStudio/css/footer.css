@@ -4,6 +4,14 @@
     max-width: 1600px;
     margin: 0 auto;
     height: 252px;
+    margin-bottom: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fffffff {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_container {
@@ -33,7 +41,30 @@
     color: #757575;
     margin-left: 215px;
 }
-.foter_img { 
-  margin-left: 215px;
-  margin-top: 60px;
+
+.foter_img {
+    margin-left: 215px;
+    margin-top: 60px;
+}
+
+.card_svg--d-dd svg:hover path {
+    fill: #2196f3;
+}
+
+.card_svg--d-dd svg:hover g path {
+    fill: #ffffff;
+}
+
+.foter-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.card_svg--d-dd{
+    padding-top: 70px;
 }
