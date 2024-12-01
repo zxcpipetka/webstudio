@@ -37,6 +37,16 @@ header {
   display: flex;
 }
 
+.header_navigation--item--blue--line{
+  position: absolute;
+  margin-top: 21px;
+  height: 4.5px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  width: 46px;
+}
+
+
 .header_navigation--item a {
   transition: 0.5s;
   font-family: Roboto;

@@ -110,6 +110,11 @@ margin-top: 25px;
   text-align: center;
 }
 
+.main_third--img:hover {
+  transition: 2s;
+  transform: rotateZ(1080deg);
+}
+
 .main_third--images {
   display: flex;
   justify-content: space-between;
