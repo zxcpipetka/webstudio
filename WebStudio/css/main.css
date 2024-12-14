@@ -15,6 +15,7 @@
 }
 
 .main_first--title {
+  animation: colorceange 3s  linear infinite;
   max-width: 696px;
   font-family: Roboto;
   font-size: 44px;
@@ -236,3 +237,21 @@ justify-content: space-around;
 }
   .svg_section--div svg path{
     fill:#AFB1B8;}
+    @keyframes colorceange {
+      0%{
+        transform: rotateZ(0deg);
+        color: #ffffff;
+      }
+      25% {
+        transform: rotateZ(20deg);
+        color: blue;
+      }
+      50% {
+        transform: rotateZ(0deg);
+        color:green;
+      }
+      75%{
+        transform: rotateZ(-20deg);
+        color: red;
+      }
+    }

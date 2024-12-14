@@ -10,6 +10,7 @@
 }
 
 .fffffff {
+    width: 1400px;
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +50,7 @@
 
 .card_svg--d-dd svg:hover path {
     fill: #2196f3;
+
 }
 
 .card_svg--d-dd svg:hover g path {
@@ -65,6 +67,48 @@
     color: #ffffff;
     padding-bottom: 20px;
 }
-.card_svg--d-dd{
+
+.card_svg--d-dd {
     padding-top: 70px;
+}
+
+.text_contact {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+
+}
+.button_contact {
+
+    width: 220px;
+    height: 53px;
+    margin-bottom: 200px;
+    border: 0;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+}
+.dibil {
+    box-shadow: 0px 4px 4px 0px #00000026;
+background-color: #2F303A;
+border: 1px solid #FFFFFF4D;
+width: 360px;
+height: 50px;
+}
+.contact {
+    margin-top: 70px; 
 }

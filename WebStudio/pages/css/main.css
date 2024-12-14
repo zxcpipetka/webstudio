@@ -71,6 +71,7 @@
     margin-left: 9%;
     padding-bottom: 30px;
     gap: 30px;
+    z-index: 1;
 }
 
 .hiden {
@@ -88,6 +89,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #ffffff;
+    z-index: 0;
 }
 .hiden:hover {
     transition: 0.5s ease-in-out;
