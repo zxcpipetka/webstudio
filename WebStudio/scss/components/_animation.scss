@@ -1,0 +1,33 @@
+@keyframes pulseScale {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes animateBtn {
+  0%,
+  100% {
+    background-color: #2196f3;
+  }
+
+  50% {
+    background-color: #2195f3d8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes animateWhyUs {
+  0%,
+  100% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(360deg);
+  }
+}

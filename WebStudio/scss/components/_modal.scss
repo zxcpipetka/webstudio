@@ -6,14 +6,14 @@
     right: 0;
     top: 0;
     bottom: 0;
-}
-
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.modal {
+  
+    &.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  
+  .modal {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -22,23 +22,23 @@
     height: 581px;
     background-color: #ffffff;
     border-radius: 4px;
-}
-
-.modal_close--wrapper {
+  }
+  
+  .modal_close--wrapper {
     display: flex;
     justify-content: end;
     padding-top: 8px;
     padding-bottom: 2px;
-}
-
-.modal_close {
+  }
+  
+  .modal_close {
     position: relative;
     top: 0;
     right: 8px;
     cursor: pointer;
-}
-
-.modal_title {
+  }
+  
+  .modal_title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
@@ -49,71 +49,71 @@
     text-decoration-skip-ink: none;
     color: #212121;
     margin-bottom: 12px;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-}
-
-form label {
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14.06px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #757575;
-}
-
-form input:not([type="checkbox"]) {
-    width: 448px;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #21212133;
-    padding-left: 40px;
-}
-
-.form_field {
+  
+    label {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.06px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #757575;
+    }
+  
+    input:not([type="checkbox"]) {
+      width: 448px;
+      height: 40px;
+      border-radius: 4px;
+      border: 1px solid #21212133;
+      padding-left: 40px;
+    }
+  }
+  
+  .form_field {
     position: relative;
-}
-
-.form_field svg {
-    position: absolute;
-    top: 50%;
-    left: 12px;
-}
-
-form textarea {
+  
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 12px;
+    }
+  }
+  
+  form textarea {
     width: 448px;
     height: 120px;
     border: 1px solid #21212133;
     border-radius: 4px;
     resize: none;
     padding: 12px 16px;
-}
-
-form textarea::placeholder {
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14.06px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
-
-.form_accept--rules {
+  
+    &::placeholder {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.06px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+  
+  .form_accept--rules {
     display: flex;
     gap: 8px;
-}
-
-.form_accept--text {
+  }
+  
+  .form_accept--text {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -123,9 +123,9 @@ form textarea::placeholder {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #757575;
-}
-
-.form_accept--link {
+  }
+  
+  .form_accept--link {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -137,13 +137,13 @@ form textarea::placeholder {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #2196F3;
-}
-
-.form_btn--wrapper {
+  }
+  
+  .form_btn--wrapper {
     margin-top: 30px;
-}
-
-.form_submit {
+  }
+  
+  .form_submit {
     width: 200px;
     height: 50px;
     border-radius: 4px;
@@ -159,14 +159,20 @@ form textarea::placeholder {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-}
-.form_field:focus-within svg g path {
-        fill:#2196F3;
-}
-.form_field input:focus {
-    outline: none;
-    border-color: #2196F3;
-}
-.form_field textarea:focus {
-    outline: none;
-}
+  }
+  
+  .form_field {
+    &:focus-within svg g path {
+      fill: #2196F3;
+    }
+  
+    input:focus {
+      outline: none;
+      border-color: #2196F3;
+    }
+  
+    textarea:focus {
+      outline: none;
+    }
+  }
+  
