@@ -31,3 +31,21 @@
     transform: rotateY(360deg);
   }
 }
+@keyframes colorceange {
+  0%{
+    transform: rotateZ(0deg);
+    color: #ffffff;
+  }
+  25% {
+    transform: rotateZ(20deg);
+    color: blue;
+  }
+  50% {
+    transform: rotateZ(0deg);
+    color:green;
+  }
+  75%{
+    transform: rotateZ(-20deg);
+    color: red;
+  }
+}
