@@ -1,0 +1,125 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: $basicWhite;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: $widthContainer;
+    margin: $centeredContainer;
+    padding: 0 20px;
+  }
+
+  &_left {
+    display: flex;
+    align-items: center;
+  }
+
+  &_logo {
+    margin-right: 93px;
+    cursor: pointer;
+    &:hover {
+      animation: pulseScale 1s ease-in-out infinite;
+    }
+  }
+
+  &_navigation {
+    display: flex;
+
+    &--item a {
+      transition: color 0.5s ease;
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16.41px;
+      letter-spacing: 0.02em;
+      color: $lightBlack;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        transition: 0.5s;
+        color: $lightBlue;
+      }
+    }
+
+    &--item.active {
+      a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 2.5px;
+        background-color: $lightBlue;
+        transition: 0.3s ease-in-out;
+        top: 40px;
+        border-radius: 10px;
+        z-index: 5;
+      }
+    }
+
+    &--item.active.light-blue a {
+      color: #2196f3;
+    }
+
+    &--item:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+
+  &_right {
+    display: flex;
+    gap: 30px;
+
+    &--mobile {
+      display: none;
+    }
+
+    &--part {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      svg path,
+      a {
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover {
+        svg path,
+        a {
+          fill: $lightBlue;
+          color: $lightBlue;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+
+    &--link {
+      transition: 0.5s;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16.41px;
+      letter-spacing: 0.02em;
+      color: $lightGray;
+
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+      &:hover {
+        transition: 0.5s;
+        color: #2196f3;
+      }
+    }
+  }
+}
+
+@import "../adaptive/header-adaptive"

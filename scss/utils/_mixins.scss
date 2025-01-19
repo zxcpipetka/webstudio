@@ -1,0 +1,14 @@
+@mixin mainTextStyles(
+  $fontWeightValue,
+  $lineHeightValue,
+  $colorValue,
+  $letterSpacingValue,
+  $fontSizeValue
+) {
+  font-family: Roboto;
+  font-size: $fontSizeValue;
+  font-weight: $fontWeightValue;
+  line-height: $lineHeightValue;
+  color: $colorValue;
+  letter-spacing: $letterSpacingValue;
+}

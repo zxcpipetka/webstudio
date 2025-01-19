@@ -1,0 +1,70 @@
+.main {
+  padding-top: 174px;
+  &_first {
+    &-cards {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-bottom: 94px;
+      .card {
+        border: 1px solid #eeeeee;
+        max-width: 370px;
+        transition: 0.5s;
+        img {
+          width: 369px;
+        }
+        &_title {
+          @include mainTextStyles(700, 36px, #212121, 0.06em, 18px);
+          margin-top: 20px;
+          margin-bottom: 4px;
+          padding-left: 24px;
+        }
+        &_text {
+          @include mainTextStyles(400, 30px, #757575, 0.03em, 16px);
+          padding-left: 24px;
+          padding-bottom: 20px;
+        }
+        &:hover {
+          box-shadow: 2px 5px 7px 1px #00000029, 1px 5px 5px 1px #0000000f,
+            1px 2px 2px 1px #0000001f;
+
+          transition: 0.5s;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &_container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  &_nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+    &--item {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #212121;
+      padding: 9px 22px;
+      box-sizing: content-box;
+      background-color: #f5f4fa;
+      transition: 0.5s;
+      border-radius: 4px;
+      &:hover {
+        background-color: #2196f3;
+        box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014,
+          0px 3px 1px 0px #0000001a;
+        transition: 0.5s;
+        color: white;
+      }
+    }
+  }
+}

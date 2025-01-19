@@ -1,0 +1,149 @@
+@media screen and (max-width:1155px) {
+    .main {
+        &_fourth {
+            &--cards {
+                display: grid;
+                grid-template-columns: repeat(2, 270px);
+                justify-content: center;
+                gap: 65px;
+            }
+
+            &--card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .main {
+            &_second {
+                &--container {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 35px;
+                }
+
+                &--card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1120px) { 
+    .main {
+        &_fifth {
+            &--cards {
+                display: grid;
+                grid-template-columns:  repeat(3, 1fr);
+                gap: 20px;  
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main {
+        &_fourth {
+            &--cards {
+                grid-template-columns: repeat(350px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:590px) {
+    .main {
+        &_fifth {
+            &--cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:1190px) {
+    .main {
+        &_third {
+            &--section {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:645px) {
+    .main {
+        &_fourth {
+            &--cards {
+                grid-template-columns: repeat(1, 270px);
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:515px) {
+    .main {
+        &_first {
+            &--section {
+                background-position: left;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:490px) {
+    .main {
+        &_second {
+            &--container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:405px) {
+    .main {
+        &_fifth {
+            &--cards {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .main {
+        &_fourth {
+            &--title {
+                font-size: 29px;
+            }
+            &--cards {
+
+                grid-template-columns: repeat(1, 290px);
+            }
+            &--section {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .main {
+        &_first {
+            &--title {
+                font-size: 34px;
+            }
+        }
+    }
+}

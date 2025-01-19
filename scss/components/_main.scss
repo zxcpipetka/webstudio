@@ -1,0 +1,341 @@
+.main {
+  &_first {
+    &--section {
+      content: "";
+      background-image: url("../img/first_img.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--container {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &--title {
+      max-width: 696px;
+      font-family: Roboto;
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 60px;
+      letter-spacing: 0.06em;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 200px;
+    }
+
+    &--btn {
+      margin-top: 30px;
+      width: 216px;
+      height: 50px;
+      margin-bottom: 200px;
+      border: 0;
+      cursor: pointer;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0.06em;
+      text-align: center;
+      color: #ffffff;
+      background-color: #2196f3;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px 0px #00000026;
+
+      &:hover {
+        animation: animateBtn 1.5s linear infinite;
+      }
+    }
+  }
+
+  &_second {
+    &--section {
+      margin-top: 94px;
+    }
+
+    &--container {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+
+    &--title {
+      @include mainTextStyles(700, 16.41px, #212121, 0.03em, 14px);
+      margin-bottom: 10px;
+    }
+
+    &--text {
+      max-width: 270px;
+      @include mainTextStyles(400, 24px, #757575, 0.03em, 14px);
+    }
+
+    &--card {
+      cursor: pointer;
+      #card_box {
+        &-first,
+        &-second,
+        &-third,
+        &-fourth {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 55px;
+        }
+
+        &-first::before {
+          content: "";
+          background-image: url("../img/antenna 1.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 70px;
+          height: 70px;
+          cursor: pointer;
+          display: block;
+        }
+
+        &-second::before {
+          content: "";
+          background-image: url("../img/clock 1.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 70px;
+          height: 70px;
+          display: block;
+        }
+
+        &-third::before {
+          content: "";
+          background-image: url("../img/diagram 1.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 70px;
+          height: 70px;
+          display: block;
+        }
+
+        &-fourth::before {
+          content: "";
+          background-image: url("../img/astronaut 1.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 70px;
+          height: 70px;
+          display: block;
+        }
+      }
+
+      &:hover {
+        #card_box {
+          &-first,
+          &-second,
+          &-third,
+          &-fourth {
+            animation: animateWhyUs 3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  &_third {
+    &--section {
+      margin-top: 94px;
+      margin-bottom: 94px;
+    }
+
+    &--container {
+      width: 100%;
+      max-width: 1170px;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      padding: 0 20px;
+    }
+
+    &--title {
+      margin-bottom: 50px;
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42.19px;
+      letter-spacing: 0.03em;
+      text-align: center;
+    }
+
+    &--images {
+      display: flex;
+      justify-content: space-between;
+
+      .main_third--img {
+        position: relative;
+
+        &--text {
+          position: absolute;
+          width: 100%;
+          top: 224px;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 16.41px;
+          letter-spacing: 0.03em;
+          text-align: center;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          color: #ffffff;
+          padding-bottom: 27px;
+          padding-top: 27px;
+          background-color: #2f303acc;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &_fourth {
+    &--section {
+      padding-bottom: 124px;
+      background-color: #f5f4fa;
+      padding-top: 94px;
+    }
+
+    &--card--text {
+      max-width: 270px;
+      text-align: center;
+      margin-bottom: 16px;
+      @include mainTextStyles(400, 18.75px, #757575, 0.03em, 16px);
+    }
+
+    &--card--socials {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding-bottom: 30px;
+
+      &svg:hover {
+        cursor: pointer;
+      }
+    }
+
+    &--container {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1170px;
+      padding: 0 20px;
+    }
+
+    &--card--title {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      @include mainTextStyles(500, 18.75px, #212121, 0.03em, 16px);
+    }
+
+    &--title {
+      margin-bottom: 50px;
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42.19px;
+      letter-spacing: 0.03em;
+      text-align: center;
+    }
+
+    &--cards {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--card {
+      background-color: white;
+      box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+        0px 1px 3px 0px #0000001f;
+      border-radius: 0px 0px 4px 4px;
+    }
+
+    &--card--socials {
+      svg {
+        path,
+        g path {
+          transition: 0.3s ease-in-out;
+        }
+
+        &:hover {
+          path {
+            fill: #2196f3;
+            transition: 0.5s ease-in-out;
+          }
+
+          g path {
+            fill: #ffffff;
+            transition: 0.5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  &_fifth {
+    &--container {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 1170px;
+      width: 100%;
+    }
+
+    &--section {
+      margin-top: 94px;
+    }
+
+    &--title {
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42.19px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    &--cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 94px;
+    }
+
+    &--card {
+      border: 2px solid #afb1b8;
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+      justify-content: center;
+      padding: 16px 32px;
+      transition: 0.3s ease-in-out;
+
+      svg path {
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover {
+        cursor: pointer;
+        border-color: #2196f3;
+        transition: 0.3s ease-in-out;
+
+        svg path {
+          fill: #2196f3;
+          transition: 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@import "../adaptive/main-adaptive"
