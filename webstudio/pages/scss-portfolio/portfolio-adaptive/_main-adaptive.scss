@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  // .main {
+  //   &_nav {
+  //     display: grid;
+  //     grid-template-columns: repeat(3, auto);
+  //     gap: 10px;
+  //     &--item {
+  //       display: flex;
+  //       justify-content: center;
+  //       align-items: center;
+  //     }
+  //   }
+  // }
+  .main {
+    &_nav {
+      width: 600px;
+      margin-bottom: 20px;
+      &--wrapper {
+        display: flex;
+        justify-content: center;
+        &--content {
+          overflow: auto;
+          width: 320px;
+          &::-webkit-scrollbar {
+            height: 7px;
+          }
+          &::-webkit-scrollbar-track {
+            background-color: bisque;
+            border-radius: 10px;
+          }
+          &::-webkit-scrollbar-thumb {
+            border-radius: 20px;
+            background-color: #b9b9b9;
+          }
+        }
+      }
+    }
+    &_first {
+      &--cards {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main {
+    padding-top: 90px;
+  }
+}

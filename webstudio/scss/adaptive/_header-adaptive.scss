@@ -1,0 +1,42 @@
+@media screen and (max-width: 950px) {
+  .header {
+    &_right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    &_left {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      align-items: start;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .header {
+    &_right--part {
+      display: none;
+    }
+
+    &_left {
+      justify-content: center;
+      img {
+        margin: 0;
+      }
+      nav {
+        display: none;
+      }
+    }
+    &_right--mobile {
+      display: block;
+      cursor: pointer;
+    }
+  }
+}

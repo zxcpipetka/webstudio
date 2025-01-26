@@ -1,0 +1,44 @@
+@media screen and (max-width: 560px) {
+  .backdrop .modal {
+    width: 400px;
+    height: 610px;
+    form {
+      .form_field {
+        width: 370px;
+        input:not([type="checkbox"]),
+        textarea {
+          width: 100%;
+        }
+      }
+      .form_privacy-policy {
+        display: flex;
+        gap: 8px;
+
+        &--text {
+          margin-left: 0;
+          max-width: 280px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .backdrop .modal {
+    width: 300px;
+    form {
+      .form_field {
+        width: 250px;
+        input:not([type="checkbox"]),
+        textarea {
+          width: 100%;
+        }
+      }
+      .form_privacy-policy {
+        &--text {
+          max-width: 220px;
+        }
+      }
+    }
+  }
+}
